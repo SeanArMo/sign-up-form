@@ -1,0 +1,178 @@
+@import url('https://fontlibrary.org/en/font/nazi-typewriter');
+
+body {
+    background-color: #383838;
+    margin-top: 35px;
+}
+
+.image-sec {
+    /*position: absolute;*/
+    width: 450px;
+    height: 850px;
+}
+
+.photo {
+    width: 450px;
+    height: 850px;
+}
+
+.logo{
+    font-family: 'NaziTypewriterRegular';
+    font-weight: normal;
+    font-style: normal; 
+    color: #ffffff;
+    font-size: 36px;
+    margin: 0;
+    height: auto;
+    width: auto;
+    align-self: center;
+}
+
+.logo-sec {
+    position: absolute;
+    top: 227px;
+    display: flex;
+    height: 100px;
+    width: 450px;
+    background-color: #000000;
+    opacity: 75%;
+    justify-content: center;
+}
+
+.img-footer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    height: auto;
+    width: auto;
+    align-self: center;
+}
+
+.img-footer-sec {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    height: 100px;
+    width: 450px;
+    opacity: 75%;
+    justify-content: center;
+}
+
+.info-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:  18px;
+}
+
+.img-footer a {
+    color: #ffffff;
+}
+
+.img-footer a:hover, a:active, a:visited {
+    color: #808080;
+}
+
+
+.content {
+    background-color: #ffffff;
+    width: 700px;
+    height: 850px;
+}
+.info-text {
+    padding-top: 150px;
+    margin: 0;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.top-margin {
+    padding-top: 0px;
+    margin-top: 20px;
+}
+
+.form-info {
+    background-color:#ececec;
+    width: 100%;
+    height: 292px;
+}
+
+.page {
+    display: flex;
+    flex-flow: row;
+    background-color: #383838;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.little-top-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: #383838;
+    font-size: small;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 230px;
+    align-content: space-between;
+}
+
+input {
+    border: #b4b4b47c solid 2px;
+    border-radius: 5px;
+}
+
+label {
+    padding: 0;
+}
+
+.form-content {
+    height: 250px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+form p {
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+}
+
+.submit-section {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.submit-btn {
+    background-color: #596D48;
+    color: #fafafa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border: #596D48 solid 5px;
+    border-radius: 25px;
+    width: 160px;
+    height: 50px;
+    box-shadow: #ececec 5px 5px 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.submit-section p {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    margin-left: 25px;
+}
